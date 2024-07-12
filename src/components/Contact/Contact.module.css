@@ -1,0 +1,21 @@
+.wrapper {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    font-family: inherit;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+
+.icon {
+    margin: 0 10px;
+}
