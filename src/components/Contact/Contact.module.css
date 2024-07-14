@@ -1,11 +1,10 @@
 .wrapper {
     display: flex;
-    /* width: 300px; */
     justify-content: space-between;
     align-items: center;
     border: 1.5px solid black;
     border-radius: 5px;
-    /* margin-bottom: 15px; */
+    background-color: rgb(151, 202, 234);
 }
 
 .btn {
@@ -14,6 +13,11 @@
     border: 1px solid black;
     border-radius: 3px;
     margin-right: 10px;
+    background-color: rgb(151, 202, 234);
+    &:hover {
+        scale: 1.2;
+        background-color: rgb(246, 179, 71);
+    }
 }
 
 .icon {

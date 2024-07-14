@@ -35,13 +35,17 @@ const ContactForm = ({ onAdd }) => {
             <Form className={s.wrapper}>
                 <label className={s.label}>
                     <p className={s.title}>Name</p>
-                    <Field name="name" className={s.field}></Field>
-                    <ErrorMessage className="s.error" name="name" component="span" />
+                    <div>
+                        <Field name="name" className={s.field}></Field>
+                    </div>
+                    <ErrorMessage name="name" component="div" style={{ fontSize: '12px', color: 'red' }} />
                 </label>
                 <label className={s.label}>
                     <p className={s.title}>Number</p>
-                    <Field name="number" className={s.field}></Field>
-                    <ErrorMessage className="s.error" name="number" component="span" />
+                    <div>
+                        <Field name="number" className={s.field}></Field>
+                    </div>
+                    <ErrorMessage name="number" component="div" style={{ fontSize: '12px', color: 'red' }} />
                 </label>
                 <button type="submit" className={s.btn}>Add contact</button>
             </Form>

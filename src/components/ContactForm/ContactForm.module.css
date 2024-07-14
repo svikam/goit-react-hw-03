@@ -1,7 +1,6 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    /* margin-bottom: 10px; */
     border: 1.5px solid black;
     width: 280px;
     border-radius: 5px;
@@ -22,16 +21,18 @@
     &:hover {
         border: 3px solid rgb(33, 107, 203);
     }
-    
 }
 
 .btn {
     width: 90px;
     margin: 0 auto;
     margin-top: 10px;
-}
-
-.error {
-    font-size: 9px;
-    color: red;
+    font-family: inherit;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgb(151, 202, 234);
+    &:hover {
+        scale: 1.2;
+    }
 }
